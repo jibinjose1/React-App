@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    background-color: rgba(32, 28, 30, 0.623);
+    font-family: sans-serif;
+}
+.todo-container{
+    width: 350px;
+    text-align: center;
+    margin:auto;
+    margin-top: 30px;
+}
+.input-section{
+    background-color:rgba(19, 31, 185, 0.637);
+    padding: 15px;
+    border-radius: 10px ;
+    box-shadow: 0 5px 6px #000000cf;
+    
+}
+
+.input-section input{
+    border-radius: 5px; 
+    border: 1px solid rgb(15, 145, 150);
+    width:100%; 
+    padding: 10px;  
+    box-sizing: border-box;
+    outline: none;
+    background-color:rgba(12, 93, 170, 0.747);
+    color:rgba(238, 237, 243, 0.87);
+}
+ul{
+    text-align: left;
+    padding: 0;
+}
+ul li{
+    list-style-type: none;
+    background-color: rgba(238, 37, 10, 0.781);
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: rgb(219, 209, 209);
+    box-shadow: 0 6px 7px #000000ea;
+    display: flex;
+    }
+h1{
+    color: rgba(87, 171, 173, 0.829);
+    margin: 0;
+    margin-bottom: 10px;
+}
+input::placeholder{
+    color: rgb(206, 188, 188);
+
+}
+ul li i{
+    text-align: right;
+    flex: 1;
+    cursor: pointer;
+}
+
